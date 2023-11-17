@@ -36,6 +36,9 @@ nav div {
     display: flex;
     width: 80vw;
 }
+.topbox input[type="checkbox"] {
+    display: none;
+}
 /*------------------------------------------------------------------------------------------------------------------*/
 .section1-topbox {
     background: #FEC524;
@@ -80,6 +83,7 @@ nav div {
 .parcelnumber {
     height: 7vh;
     width: 38vw;
+    border: 0px;
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 3px 35px 0px rgba(95, 98, 102, 0.17);
@@ -96,6 +100,7 @@ nav div {
     letter-spacing: 0.5px;
 }
 .sbrp-btn {
+    border: 0px;
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 3px 35px 0px rgba(95, 98, 102, 0.17);
@@ -136,7 +141,7 @@ nav div {
 }
 
 .section2 {
-    height: 70vh;
+    min-height: 70vh;
     width: 80%;
     display: flex;
     justify-content: flex-start;
@@ -213,7 +218,7 @@ nav div {
     justify-content: center;
 }
 .section3 {
-    height: 66vh;
+    min-height: 66vh;
     width: 80%;
     display: flex;
     justify-content: flex-start;
@@ -263,7 +268,7 @@ nav div {
     background: #F8F8F8;
 }
 .section4 {
-    height: 88vh;
+    min-height: 88vh;
     width: 80%;
     display: flex;
     justify-content: flex-start;
@@ -349,7 +354,7 @@ nav div {
     background-color: #0E2F4B;
 }
 .section5 {
-    height: 66vh;
+    min-height: 66vh;
     width: 80%;
     display: flex;
     justify-content: flex-start;
@@ -516,7 +521,7 @@ nav div {
     background: #FEC524;
 }
 .section7 {
-    height: 50vh;
+    min-height: 50vh;
     width: 80%;
     display: flex;
     justify-content: flex-start;
@@ -566,13 +571,13 @@ nav div {
     background-color: #1D2023;
 }
 .section8 {
-    min-height: 85vh;
+    height: 85vh;
     width: 80%;
     display: flex;
     justify-content: flex-start;
 }
 .column {
-    min-height: 63vh;
+    height: 63vh;
     display: flex;
     flex-direction: column;
     width: 300px;

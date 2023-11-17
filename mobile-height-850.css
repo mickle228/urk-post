@@ -1,6 +1,9 @@
-@media screen  and (min-width: 770px) and (max-width: 1200px) {
+@media screen and (max-height: 1000px) and (max-width: 1000px) {
     .parcelnumber {
         width: 80vw;
+    }
+    .section1 {
+        height: 60vh;
     }
     .section1-buttons {
         display: flex;
@@ -15,11 +18,14 @@
     .sbrp-btn-margin-media1 {
         margin-right: 2vw;
     }
+    .sbrp-main-inbox{
+        height: 70%;
+    }
     /*---------------------------------------------------------------------------------------------------------------------------*/
     .section2 {
-        padding-top: 24vh;
+        padding-top: 160px;
         flex-direction: column;
-        height: 75vh;
+        height: auto;
     }
     .section2-left-column {
         min-width: 80vw;
@@ -42,10 +48,16 @@
         width: 170px;
     }
     .section3 {
-        height: 48vh;
+        height: auto;
+    }
+    .section4 {
+        height: auto;
+    }
+    .section4-yellow-topbox {
+        min-height: 30vh;
     }
     .section5 {
-        height: 48vh;
+        height: auto;
     }
     .section5-box>form>button{
         width: 28%;
@@ -54,7 +66,7 @@
         width: 68%;
     }
     .section6 {
-        height: 250vh;
+        height: auto;
         display: flex;
     }
     .section6-part1-mainboxes {
@@ -80,5 +92,8 @@
     }
     .column>a {
         font-size: 14px;
+    }
+    .section8 {
+        height: auto;
     }
 }

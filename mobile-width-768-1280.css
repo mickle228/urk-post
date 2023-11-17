@@ -1,4 +1,4 @@
-@media screen  and (max-width: 770px) {
+@media screen  and (min-width: 768px) and (max-width: 1280px) {
     .parcelnumber {
         width: 80vw;
     }
@@ -15,11 +15,14 @@
     .sbrp-btn-margin-media1 {
         margin-right: 2vw;
     }
+    .topbox input[type="checkbox"] {
+        display: none;
+    }
     /*---------------------------------------------------------------------------------------------------------------------------*/
     .section2 {
         padding-top: 24vh;
         flex-direction: column;
-        height: 75vh;
+        min-height: 75vh;
     }
     .section2-left-column {
         min-width: 80vw;
@@ -54,8 +57,8 @@
         width: 68%;
     }
     .section6 {
-        height: 250vh;
         display: flex;
+        height: auto;
     }
     .section6-part1-mainboxes {
         flex-direction: column;
@@ -80,5 +83,11 @@
     }
     .column>a {
         font-size: 14px;
+    }
+    .section8 {
+        height: auto;
+    }
+    .section8>.column {
+        height: auto;
     }
 }
