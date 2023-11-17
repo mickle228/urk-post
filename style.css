@@ -16,21 +16,21 @@ header {
     align-items: center;
     height: 9vh;
     width: 80vw;
-    /*width: 100%;*/
-    /*padding-left: 10vw;*/
-    /*position: relative;*/
-
 }
 nav {
     height: 6vh;
     display: flex;
     align-items: center;
-    /*padding-left: 10vw;*/
 }
 nav div a {
     text-decoration: none;
     color: #99A2AA;
     margin-right: 25px;
+    transition: color 1s, border-bottom 1s;
+}
+nav div a:hover {
+    color: #2E3A47;
+    border-bottom: 2px solid #2E3A47;
 }
 nav div {
     display: flex;
@@ -82,14 +82,14 @@ nav div {
 }
 .parcelnumber {
     height: 7vh;
-    width: 38vw;
+    width: 37vw;
     border: 0px;
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 3px 35px 0px rgba(95, 98, 102, 0.17);
     position: absolute;
     bottom: 15%;
-    padding-left: 2%;
+    padding-left: 4%;
 
 }
 .parcelnumber::placeholder {
@@ -98,6 +98,7 @@ nav div {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.5px;
+    font-size: 16px;
 }
 .sbrp-btn {
     border: 0px;
@@ -106,7 +107,6 @@ nav div {
     box-shadow: 0px 3px 35px 0px rgba(95, 98, 102, 0.17);
     width: 19vw;
     height: 80px;
-    /*margin-right: 3vw;*/
     color: #99A2AA;
     font-size: 16px;
     font-style: normal;
@@ -115,6 +115,11 @@ nav div {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
+}
+.sbrp-btn:hover {
+    scale: 1.05;
+    transition: 0.5s;
 }
 .sbrp-btn-margin {
     margin-right: 2vw;
@@ -127,7 +132,6 @@ nav div {
 }
 .section1-buttons1, .section1-buttons2 {
     display: flex;
-    /*width: 100%;*/
 }
 .section1-buttons-img {
     margin-right: 1vw;
@@ -153,9 +157,6 @@ nav div {
     min-width: 400px;
     max-width: 400px;
     margin-right: 3vw;
-    /*box-sizing: border-box;*/
-    /*padding: 1.7vw 0 1.7vw 0;*/
-    /*margin-right: 10vw;*/
 }
 .section2-left-column>.h2-flex>h2 {
     color: #0E2F4B;
@@ -178,13 +179,9 @@ nav div {
 }
 .section2-center-right-column {
     display: flex;
-    /*margin-top: 3vh;*/
-    /*width: 70%;*/
-    /*justify-content: center;*/
 }
 .section2-center-column {
     min-width: 25vw;
-    /*margin-right: 10vw;*/
 }
 .section2-right-column {
     min-width: 25vw;
@@ -259,10 +256,15 @@ nav div {
     padding: 28px 0px;
     justify-content: center;
     align-items: center;
+    transition: 1s;
+    border: 0;
+}
+.section3-box>button:hover {
+    background-color: #e7c96a;
+    transition: 1s;
 }
 /*!*------------------------------------------------------------------------------------------------------------------------*!*/
 .section4-topbox {
-    /*background-color: #0E2F4B;*/
     display: flex;
     justify-content: center;
     background: #F8F8F8;
@@ -395,7 +397,11 @@ nav div {
     font-style: normal;
     font-weight: 700;
     line-height: 80px; /* 400% */
-
+    transition: 1s;
+}
+.section5-box>form>button:hover {
+    background-color: #e7c96a;
+    transition: 1s;
 }
 .section5-box>form {
     display: flex;
@@ -450,7 +456,6 @@ nav div {
 .section6-part1-flexbox{
     padding: 30px;
     width: 40vw;
-    /*height: 250px;*/
     background: #FFF;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -498,7 +503,6 @@ nav div {
     width: 370px;
     height: 92px;
     display: flex;
-    /*justify-content: center;*/
     align-items: center;
     background: #FFF;
     margin-bottom: 30px;
@@ -594,6 +598,11 @@ nav div {
     font-weight: 400;
     line-height: 24px; /* 150% */
     margin-bottom: 1vh;
+    transition: 0.5s;
+}
+.column>a:hover {
+    color: #dad7d7;
+    transition: 0.5s;
 }
 .column>span {
     color: #FFF;

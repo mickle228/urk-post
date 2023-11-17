@@ -41,7 +41,6 @@
             font-size: 4vw;
         }
 
-        /* Показуємо випадаюче меню, коли чекбокс увімкнено */
         .topbox input[type="checkbox"]:checked ~ div {
             display: flex;
             justify-content: center;
@@ -54,12 +53,10 @@
         overflow: hidden;
     }
 
-        /* Сховуємо чекбокс на малих екранах */
         .topbox input[type="checkbox"] {
             display: none;
         }
 
-        /* Стилізація іконки бургера */
         .topbox .burger-icon {
             display: block;
             font-size: 24px;
@@ -67,11 +64,9 @@
         }
 
         .topbox .burger-icon:before {
-            content: '\2630'; /* Юнікод-символ для іконки бургера */
         }
 
     .topbox .burger-icon.cross:before {
-        content: '\00D7'; /* Юнікод-символ для хрестика */
     }
 
 
