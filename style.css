@@ -604,10 +604,11 @@ nav div {
     justify-content: flex-start;
 }
 .column {
+    width: 25%;
     height: 63vh;
     display: flex;
     flex-direction: column;
-    width: 300px;
+    /*width: 300px;*/
     border-bottom: 1px solid #99A2AA;
     margin-top: 10vh;
     margin-bottom: 10vh;

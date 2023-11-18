@@ -1,6 +1,6 @@
 @media screen and (max-width: 568px) {
     .parcelnumber {
-        width: 80vw;
+        width: 79vw;
     }
     .section1-buttons {
         display: flex;
@@ -200,7 +200,7 @@
     .section8-topbox>.section8>.column>a {
         position: relative;
         right: 10000px;
-        bottom: 500px;
+        bottom: 10000px;
     }
     .section8 {
         flex-direction: column;
@@ -211,5 +211,11 @@
         border-bottom: 0px solid #99A2AA;
         margin: 0;
         padding: 50px 0 0 0;
+        display: flex;
+        width: 100%;
+    }
+    .section8>.column>span {
+        display: flex;
+        justify-content: center;
     }
 }
