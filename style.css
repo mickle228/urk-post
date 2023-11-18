@@ -133,6 +133,9 @@ nav div {
 .section1-buttons1, .section1-buttons2 {
     display: flex;
 }
+.section1-buttons1>a, .section1-buttons2>a {
+    text-decoration: none;
+}
 .section1-buttons-img {
     margin-right: 1vw;
 }
@@ -207,6 +210,11 @@ nav div {
     font-weight: 700;
     line-height: 20px; /* 142.857% */
     padding-top: 10px;
+    transition: 1s;
+}
+.section2-column-box>a:hover {
+    transition: 0.5s;
+    scale: 1.05;
 }
 /*-----------------------------------------------------------------------------------------------------------------------*/
 .section3-topbox {
@@ -348,6 +356,11 @@ nav div {
     font-weight: 700;
     line-height: 20px; /* 142.857% */
     margin-top: 5px;
+    transition: 0.5s;
+}
+.section4-row-box>a:hover {
+    transition: 0.5s;
+    scale: 1.05;
 }
 /*-------------------------------------------------------------------------------------------------------------------------*/
 .section5-topbox {
