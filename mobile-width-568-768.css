@@ -22,51 +22,53 @@
         align-items: center;
         justify-content: center;
     }
-        .topbox {
-            flex-direction: column;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+    .topbox {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     .topbox div {
-            display: none;
-            flex-direction: column;
-            width: 100%;
-            text-align: left;
-        }
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: left;
+    }
 
-        .topbox a {
-            margin: 5px 0;
-            font-size: 4vw;
-        }
+    .topbox a {
+        margin: 5px 0;
+        font-size: 4vw;
+    }
 
-        .topbox input[type="checkbox"]:checked ~ div {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #F8F8F8;
-            z-index: 2;
-            height: 100vh;
-        }
+    .topbox input[type="checkbox"]:checked ~ div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F8F8F8;
+        z-index: 2;
+        height: 100vh;
+    }
     .topbox input[type="checkbox"]:checked ~ body {
         overflow: hidden;
     }
 
-        .topbox input[type="checkbox"] {
-            display: none;
-        }
+    .topbox input[type="checkbox"] {
+        display: none;
+    }
 
-        .topbox .burger-icon {
-            display: block;
-            font-size: 24px;
-            cursor: pointer;
-        }
+    .topbox .burger-icon {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
 
-        .topbox .burger-icon:before {
-        }
+    .topbox .burger-icon:before {
+        content: '\2630';
+    }
 
     .topbox .burger-icon.cross:before {
+        content: '\00D7';
     }
 
 
